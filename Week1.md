@@ -8,6 +8,7 @@ I didn't really go through this step since I already had VSCode installed, but i
 - After installation the VSCode window should look like this
 
 
-![Image](file:///Users/suhanisrivastava/Pictures/Photos%20Library.photoslibrary/originals/9/9EDC8CEA-62AD-45F6-9126-0B33CA0B22E0.jpeg)
+![Image](file:///Users/suhanisrivastava/Pictures/Photos%20Library.photoslibrary/originals/8/885BF598-E985-42FB-B2D2-83A6BD4CB3CE.jpeg)
+
 
 
