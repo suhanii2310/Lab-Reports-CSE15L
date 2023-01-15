@@ -1,7 +1,7 @@
 # Week1 Lab Report
 ## Step 1- Installing VSCode
 I didn't really go through this step since I already had VSCode installed, but if it is not installed on your computer one should follow the steps below
-- Click on the link below to go to the Visual Studio Code website and select "Download" to install VSCode.
+- Click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode.
 
 [Link](https://code.visualstudio.com/)
 
@@ -13,7 +13,7 @@ I didn't really go through this step since I already had VSCode installed, but i
 
 ![885BF598-E985-42FB-B2D2-83A6BD4CB3CE](https://user-images.githubusercontent.com/122580828/212518279-f6ad364e-f2d2-4f37-853e-ff2ba15388bd.jpeg)
 
-Horizontal rule:
+
 
 ---
 ## Step 2-Remotely Connecting
@@ -29,11 +29,11 @@ Horizontal rule:
 
 ![31836E5A-23F2-4495-9035-8ACAA2DFE14C](https://user-images.githubusercontent.com/122580828/212518404-2d853179-3237-4781-8e4e-d68fa779295d.jpeg)
 
-Horizontal rule:
+
 
 ---
 ## Step 3-Trying some commands
-- We can run commands like **ls**, **pwd**, **cd** etc.
+- We can run commands like `ls`, `pwd`, `cd` etc.
 - I ran the following commands for which I had the following outputs.
 
 ![6FD6A820-2C0B-4690-9FEE-C4D14D21A0DE](https://user-images.githubusercontent.com/122580828/212518457-a6c523be-98ee-48b2-93d0-c6780081ee94.jpeg)
