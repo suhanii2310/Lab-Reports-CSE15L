@@ -3,7 +3,7 @@
 I didn't really go through this step since I already had VSCode installed, but if it is not installed on your computer one should follow the steps below
 - Click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode.
 
-[Link](https://code.visualstudio.com/)
+[VSCodeWebsite](https://code.visualstudio.com/)
 
 ![9EDC8CEA-62AD-45F6-9126-0B33CA0B22E0](https://user-images.githubusercontent.com/122580828/212518993-c888b33f-e6b0-4b63-b97f-830d7afd113b.jpeg)
 
