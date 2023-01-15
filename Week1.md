@@ -13,21 +13,21 @@ I didn't really go through this step since I already had VSCode installed, but i
 
 
 ## Step 2-Remotely Connecting
-- For this step, I first checked if i had **git** installed on my computer.To do this we first open the terminal and type "git --version".
+- For this step, I first checked if I had **git** installed on my computer.To do this we first open the terminal and type "git --version".
 - If it results in an error then we need to install **git**
 - After installing git we will use the ssh command to connect it to the server.
 - Type the following command in the terminal.
-         **ssh cs15lwi23zz@ieng6.ucsd.edu**
+-     **ssh cs15lwi23zz@ieng6.ucsd.edu**
 - We have to replace "zz" by our course-specific account. For me it was "awl".
 - It will ask you if you want to continue, type "yes".
 - The termainal will ask you to enter your password.
-- After entering something like this should be on your screen.
+- After entering the password the connnection will be established and something like this should be on your screen.
 
 ![31836E5A-23F2-4495-9035-8ACAA2DFE14C](https://user-images.githubusercontent.com/122580828/212518404-2d853179-3237-4781-8e4e-d68fa779295d.jpeg)
 
 ## Step 3-Trying some commands
 - We can run commands like **ls**, **pwd**, **cd** etc.
-- I ran the following commands which had the following outputs
+- I ran the following commands for which I had the following outputs.
 
 ![6FD6A820-2C0B-4690-9FEE-C4D14D21A0DE](https://user-images.githubusercontent.com/122580828/212518457-a6c523be-98ee-48b2-93d0-c6780081ee94.jpeg)
 
