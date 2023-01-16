@@ -1,7 +1,7 @@
 # Week1 Lab Report
 ## Step 1- Installing VSCode
 
-- In order to install VSCode on your computer, click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode. (I did not go through this step since I already had VSCode installed on my device)
+- In order to install VSCode on your device, click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode. (I did not go through this step since I already had VSCode installed on my device)
 
 [VSCodeWebsite](https://code.visualstudio.com/)
 
@@ -17,7 +17,7 @@
 
 ---
 ## Step 2-Remotely Connecting
-- For this step, I first checked if I had **git** installed on my computer.To do this we first open the terminal and type "git --version".
+- For this step, I first checked if I had **git** installed on my device.To do this we first open the terminal and type "git --version".
 - If it results in an error then we need to install **git**
 - After installing git we will use the ssh command to connect it to the server.
 - Type the following command in the terminal.
