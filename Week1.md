@@ -1,7 +1,7 @@
 # Week1 Lab Report
 ## Step 1- Installing VSCode
-I didn't really go through this step since I already had VSCode installed, but if it is not installed on your computer one should follow the steps below
-- Click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode.
+
+- Click on the link below to go to the Visual Studio Code website and select **Download** to install VSCode.I didn't really go through this step since I already had VSCode installed, but if it is not installed on your computer one should follow the steps below
 
 [VSCodeWebsite](https://code.visualstudio.com/)
 
