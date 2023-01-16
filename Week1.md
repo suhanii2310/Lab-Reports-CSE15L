@@ -21,7 +21,7 @@
 - If it results in an error then we need to install **git**
 - After installing git we will use the ssh command to connect it to the server.
 - Type the following command in the terminal.
--     `**ssh cs15lwi23zz@ieng6.ucsd.edu**`
+-     `ssh cs15lwi23zz@ieng6.ucsd.edu`
 - We have to replace "zz" by our course-specific account. For me it was "awl".
 - It will ask you if you want to continue, type `yes`.
 - The termainal will ask you to enter your password.
