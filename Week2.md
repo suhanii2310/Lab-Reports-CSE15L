@@ -64,7 +64,7 @@ class StringServer {
 
 ![13397028-3711-4719-B32C-08C6941E5431](https://user-images.githubusercontent.com/122580828/215579612-2a8d3c8c-65ce-4715-b0b7-865d76882e0d.jpeg)
 
-- This message was displayed because handleRequest method was called. It checks the first if condition which then checks the nested if condition to check if the string str is empty or not. Since the string sstr was empty `String is empty.No message added yet.` was displayed.
+- This message was displayed because handleRequest method was called. It checks the first if condition which then checks the nested if condition to check if the string str is empty or not. Since the string str was empty `String is empty.No message added yet.` was displayed.
 
 - Now we will use the query "/add-message" to see how the server responds to it.
 
