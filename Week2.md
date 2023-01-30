@@ -7,8 +7,8 @@ We will use two files for this
 - StringServer.java
 The code for StringServer.java is given below
 
-`
-import java.io.IOException;
+
+`import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -32,8 +32,6 @@ class Handler implements URLHandler {
         return "404 Not Found!";
     }
 }
-`
-`
 
 class StringServer {
     public static void main(String[] args) throws IOException {
