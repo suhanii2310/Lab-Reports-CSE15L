@@ -6,14 +6,15 @@ We will use two files for this
 - Server.java
 - StringServer.java
 The code for StringServer.java is given below
-
-`
+```
 import java.io.IOException;
 import java.net.URI;
+
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     String str = "";
+
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             if (str.isEmpty()){
@@ -44,7 +45,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-`
+```
 
 
 - This code keeps track of a single string that gets added to by the incoming requests and then concatenates a new line (\n) after the string and stores all the strings added so far.
