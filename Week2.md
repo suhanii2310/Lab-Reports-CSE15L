@@ -156,7 +156,7 @@ public class ArrayTests {
   }
 }
 ```
-- The last test prove to be failure-inducing inputs because they don't pass the tests.
+- The last test had a failure-inducing input because it didn't pass the test.
 - We will look at the ReverseInPlace method and the bugs in it.
 - In testMyReverseInPlace, the list entered is {10,11,12) which should have the output {12,11,10} when reversed but instead it displays 10 at index[2] instead of 12.
 - This might be because this bug copies the first half of the list to the second half instead of exchanging them.
