@@ -7,12 +7,10 @@ We will use two files for this
 - StringServer.java
 The code for StringServer.java is given below
 
-
 `import java.io.IOException;
- import java.net.URI;
-`
+import java.net.URI;
 
-` class Handler implements URLHandler {
+class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     String str = "";
@@ -32,20 +30,23 @@ The code for StringServer.java is given below
         }
         return "404 Not Found!";
     }
-}`
+}
 
- `class StringServer {
-     public static void main(String[] args) throws IOException {
-         if(args.length == 0){
-             System.out.println("Missing port number! Try any number between 1024 to 49151");
-             return;
-         }
 
-         int port = Integer.parseInt(args[0]);
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
 
-         Server.start(port, new Handler());
-     }
- }`
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+
 - This code keeps track of a single string that gets added to by the incoming requests and then concatenates a new line (\n) after the string and stores all the strings added so far.
 - To run this code we wil use the commands
 - `javac Server.java StringServer.java`
