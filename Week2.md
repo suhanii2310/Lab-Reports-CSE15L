@@ -6,6 +6,7 @@
 To create a web server called "StringServer" we will use two files-
 - Server.java
 - StringServer.java
+
 The code for StringServer.java is given below
 ```
 import java.io.IOException;
