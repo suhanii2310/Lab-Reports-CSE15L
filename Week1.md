@@ -22,6 +22,7 @@
 - After installing git we will use the ssh command to connect it to the server.
 - Type the following command in the terminal.
 -     `ssh cs15lwi23zz@ieng6.ucsd.edu`
+-  `ssh` switches the terminal's context to running commands on another computer.
 - We have to replace "zz" by our course-specific account. For me it was "awl".
 - It will ask you if you want to continue, type `yes`.
 - After running this command you will observe that you have been logged into the server.
@@ -47,4 +48,5 @@
 -To log out of the server we can use-
 1. Ctrl+D
 2. Run the command `exit`.
+These commands help the user to exit from the server
 
