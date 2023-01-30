@@ -1,4 +1,5 @@
 # Week1 Lab Report
+
 ## Part 1- Creating a web server(StringServer)
 
 
@@ -78,6 +79,108 @@ class StringServer {
 - The code works in a similar way when the url is succeeded by "/add-message?s=I am Suhani".
 
 
+
+
 ## Part 2- Bugs
 
+For this part I chose the file **"ArrayExamples.java"**
+```
+public class ArrayExamples {
 
+  
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+
+  // Averages the numbers in the array (takes the mean), but leaves out the
+  // lowest number when calculating. Returns 0 if there are no elements or just
+  // 1 element in the array
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+
+
+}
+```
+
+The tests for this file were-
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+
+
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+
+
+  @Test
+  public void testMyReverseInPlace(){
+    int[] input1= { 10, 11, 12};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{12,11,10},input1);
+  }
+}
+```
+- The last two tests prove to be failure-inducing inputs because they don't pass the tests.
+- We will look at the ReverseInPlace method and the bugs in it.
+- In testMyReverseInPlace, the list entered is {10,11,12) which should have the output {12,11,10} when reversed but instead it displays 10 at index[2] instead of 12.
+- This might be because this bug copies the first half of the list to the second half instead of exchanging them.
+
+![D1322C88-0693-41AB-8A79-E497A63CF0F0](https://user-images.githubusercontent.com/122580828/215614937-506c7a6a-58ee-4cf5-ac8b-d089138ef811.jpeg)
+
+- We can also see an input that doesn't result in a failure even if the code is wrong. This input has a list with only one element and hence it wouldn't matter whether the first half and second half are been exchanged or not.
+
+
+![1B08744A-7725-421E-9666-EC4E04E92846](https://user-images.githubusercontent.com/122580828/215615620-fcd5032d-4327-4ccb-9717-aa8161b6b318.jpeg)
+
+To fix this bug we need to change the method a bit
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp=arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length-i-1]=temp;
+    }
+  }
+```
+The following changes were made to fix the bugs-
+1. We changed the range of i from `i<arr.length` to `i<arr.length/2`.
+2. We created a new temporary variable "temp".
+3. We added the line `arr[arr.length-i-1]=temp;` so that we can assign elements to two indexes in the array in one iteration.Here we store the first half in a temporary variable and copy the second half to the first half simultaneously and then copy the temporary variable to the second half of the list.
+
+
+## Part 3- What I Learnt
