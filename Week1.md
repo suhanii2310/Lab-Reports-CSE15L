@@ -37,6 +37,7 @@
 ## Step 3-Trying some commands
 - We can run commands like `ls`, `pwd`, `cd` etc.
 - The commands have the following usage
+
 1. cd - "Change Directory" It is used to switch the current working directoryto the given path.
 2. ls - "List" used to list the files aand folders of the given path.
 3. pwd - "Print Working Directory" It is used to display the current working directory.
