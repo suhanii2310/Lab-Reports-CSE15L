@@ -6,7 +6,9 @@ We will use two files for this
 - Server.java
 - StringServer.java
 The code for StringServer.java is given below
-`import java.io.IOException;
+
+`
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -43,7 +45,8 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-}`
+}
+`
 - This code keeps track of a single string that gets added to by the incoming requests and then concatenates a new line (\n) after the string and stores all the strings added so far.
 - To run this code we wil use the commands
 - `javac Server.java StringServer.java`
