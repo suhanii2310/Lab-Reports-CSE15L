@@ -38,9 +38,9 @@
 - We can run commands like `ls`, `pwd`, `cd` etc.
 - The commands have the following usage
 
-1) `cd` - "Change Directory" It is used to switch the current working directoryto the given path.
-2) `ls` - "List" used to list the files aand folders of the given path.
-3) `pwd` - "Print Working Directory" It is used to display the current working directory.
+1. `cd` - "Change Directory" It is used to switch the current working directoryto the given path.
+2. `ls` - "List" used to list the files aand folders of the given path.
+3. `pwd` - "Print Working Directory" It is used to display the current working directory.
 
 
 - When we run these commands- cd changed the directory, ls listed the 120 files, while pwd displayed the current working directory which was "/home/linux/ieng6/cse15lwi23/cse15lwi23awl"
