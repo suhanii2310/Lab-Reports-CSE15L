@@ -158,13 +158,16 @@ public class ArrayTests {
 ```
 - The last test had a failure-inducing input because it didn't pass the test.
 - We will look at the ReverseInPlace method and the bugs in it.
-- In testMyReverseInPlace, the list entered is {10,11,12) which should have the output {12,11,10} when reversed but instead it displays 10 at index[2] instead of 12.
+- In testMyReverseInPlace, the list entered is {10,11,12) which should have the output {12,11,10} when reversed but instead it displays 12 at index[2] instead of 10.
 - This might be because this bug copies the first half of the list to the second half instead of exchanging them.
+
+Symptom-
 
 ![D1322C88-0693-41AB-8A79-E497A63CF0F0](https://user-images.githubusercontent.com/122580828/215614937-506c7a6a-58ee-4cf5-ac8b-d089138ef811.jpeg)
 
 - We can also see an input that doesn't result in a failure even if the code is wrong. This input has a list with only one element and hence it wouldn't matter whether the first half and second half are been exchanged or not.
 
+Symptom-
 
 ![1B08744A-7725-421E-9666-EC4E04E92846](https://user-images.githubusercontent.com/122580828/215615620-fcd5032d-4327-4ccb-9717-aa8161b6b318.jpeg)
 
@@ -193,7 +196,7 @@ Making these changes will fix the bugs and all the tests will pass.
 
 ## Part 3- What I Learnt
 
-In week 2, something new I learnt was how to create my own server and running it using a url. Learning about ports(specific port that the web server runs on) and local host(refers to the computer we are on) which are parts of the url was really intriguing to me.
+In week 2, I learnt something new which was how to create my own server and running it using a url. Learning about ports(specific port that the web server runs on) and local host(the computer we are on) which are parts of the url was really intriguing to me.
 It was fascinating, when we connected our computers to the remote computer and we could see each other's changes(made to everyone's own seperate servers) on our own computers.
 
-In week 3, we were introduced to bugs. Even though I somewhat knew what bugs are, it was interesting to know how some inputs do not result in a failure even when there are bugs in the program while some inputs induce failures.
+In week 3, we were introduced to bugs. Even though I swas familiar with what bugs are, it was interesting to know how some inputs do not result in a failure even when there are bugs in the program while some inputs do induce failures.
