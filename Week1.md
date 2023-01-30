@@ -24,6 +24,7 @@
 -     `ssh cs15lwi23zz@ieng6.ucsd.edu`
 - We have to replace "zz" by our course-specific account. For me it was "awl".
 - It will ask you if you want to continue, type `yes`.
+- After running this command you will observe that you have been logged into the server.
 - The termainal will ask you to enter your password.
 - After entering the password the connnection will be established and something like this should be on your screen.
 
@@ -34,7 +35,12 @@
 ---
 ## Step 3-Trying some commands
 - We can run commands like `ls`, `pwd`, `cd` etc.
-- I ran the following commands for which I had the following outputs.
+- The commands have the following usage
+1) cd - "Change Directory" It is used to switch the current working directoryto the given path.
+2) ls - "List" used to list the files aand folders of the given path.
+3) pwd - "Print Working Directory" It is used to display the current working directory.
+- When we ran these commands- cd changed the directory ls listed the 120 files while pwd displayed the current working directory which was "/home/linux/ieng6/cse15lwi23/cse15lwi23awl"
+- I ran these commands for which I had the following outputs.
 
 ![6FD6A820-2C0B-4690-9FEE-C4D14D21A0DE](https://user-images.githubusercontent.com/122580828/212518457-a6c523be-98ee-48b2-93d0-c6780081ee94.jpeg)
 
