@@ -73,7 +73,7 @@ class StringServer {
 ![A8844D2E-72B7-4E84-9BE7-7FC4C58737A5](https://user-images.githubusercontent.com/122580828/215591943-434f9f2e-6acb-45c9-8f4c-5c597135cb70.jpeg)
 
 - We can observe in the first image that when we succeed the url with "/add-message?s=Hello", the server displays hello.
-- This happens because, when we type the above url it calls handleRequest method with the url as the parameter. It goes throught the if condition which checks if the url contains "/add-message". If the condition is true, it creates a string array parameter which is made by splitting the string wiht regex "=". It then checks if the first element of the array is "s". If the condition is true it concatenates the string to variable str(which in this case was "") and returns the string. If any of the conditions are false then it will display "404 Not Found".
+- This happens because, when we type the above url it calls handleRequest method with the url as the parameter. It goes throught the if condition which checks if the url contains "/add-message". If the condition is true, it creates a string array parameters which is made by splitting the string with regex "=". It then checks if the first element of the array is "s". If the condition is true it concatenates the string to variable str(which in this case was "") and returns the string. If any of the conditions are false then it will display "404 Not Found".
 - Next, when we add "Hi", it displays Hello and Hi both but in different lines.
 - This is because when we added "Hello" to str it also added a new line such that the next time we add "Hi" it is displayed in the next line.
 - The code works in a similar way when the url is succeeded by "/add-message?s=I am Suhani".
@@ -154,7 +154,7 @@ public class ArrayTests {
   }
 }
 ```
-- The last two tests prove to be failure-inducing inputs because they don't pass the tests.
+- The last test prove to be failure-inducing inputs because they don't pass the tests.
 - We will look at the ReverseInPlace method and the bugs in it.
 - In testMyReverseInPlace, the list entered is {10,11,12) which should have the output {12,11,10} when reversed but instead it displays 10 at index[2] instead of 12.
 - This might be because this bug copies the first half of the list to the second half instead of exchanging them.
@@ -179,8 +179,19 @@ static void reverseInPlace(int[] arr) {
 ```
 The following changes were made to fix the bugs-
 1. We changed the range of i from `i<arr.length` to `i<arr.length/2`.
-2. We created a new temporary variable "temp".
-3. We added the line `arr[arr.length-i-1]=temp;` so that we can assign elements to two indexes in the array in one iteration.Here we store the first half in a temporary variable and copy the second half to the first half simultaneously and then copy the temporary variable to the second half of the list.
+2. We created a new temporary variable "temp" by adding `int temp=arr[i];`.
+3. We added the line `arr[arr.length-i-1]=temp;` so that we can assign elements to two indexes in the array in one iteration.
+Here we store the first half in a temporary variable and copy the second half to the first half simultaneously and then copy the temporary variable to the second half of the list.
+
+Making these changes will fix the bugs and all the tests will pass.
+
+![AF80943C-C0C9-411F-8851-C9044C3E16C5](https://user-images.githubusercontent.com/122580828/215619560-34131fb1-f735-49eb-a434-2b89e3705d4a.jpeg)
+
 
 
 ## Part 3- What I Learnt
+
+In week 2, something new I learnt was how to create my own server and running it using a url. Learning about ports(specific port that the web server runs on) and local host(refers to the computer we are on) which are parts of the url was really intriguing to me.
+It was fascinating, when we connected our computers to the remote computer and we could see each other's changes(made to everyone's own seperate servers) on our own computers.
+
+In week 3, we were introduced to bugs. Even though I somewhat knew what bugs are, it was interesting to know how some inputs do not result in a failure even when there are bugs in the program while some inputs induce failures.
