@@ -1,6 +1,6 @@
 # Week 2 Lab Report
 
-## Part 1- Creating a web server(StringServer)
+## Part 1- Creating a web server (StringServer)
 
 
 To create a web server called "StringServer" we will use two files-
