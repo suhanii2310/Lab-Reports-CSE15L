@@ -199,4 +199,4 @@ Making these changes will fix the bugs and all the tests will pass.
 In week 2, I learnt something new which was how to create my own server and running it using a url. Learning about ports(specific port that the web server runs on) and local host(the computer we are on) which are parts of the url was really intriguing to me.
 It was fascinating, when we connected our computers to the remote computer and we could see each other's changes(made to everyone's own seperate servers) on our own computers.
 
-In week 3, we were introduced to bugs. Even though I was familiar with what bugs are, it was interesting to know how some inputs do not result in a failure even when there are bugs in the program while some inputs do.
+In week 3, we were introduced to bugs. Even though I was familiar with what bugs are, it was interesting to know how some inputs do not result in a failure even when there are bugs in the program while some inputs do. 
