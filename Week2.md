@@ -165,7 +165,7 @@ Symptom-
 
 ![D1322C88-0693-41AB-8A79-E497A63CF0F0](https://user-images.githubusercontent.com/122580828/215614937-506c7a6a-58ee-4cf5-ac8b-d089138ef811.jpeg)
 
-- We can also see an input that doesn't result in a failure even if the code is wrong. This input has a list with only one element and hence it wouldn't matter whether the first half and second half are been exchanged or not.
+- We can also see an input that doesn't result in a failure even if the code is wrong. This input has a list with only one element and hence it wouldn't matter whether the first half and second half are being exchanged or not.
 
 Symptom-
 
