@@ -4,10 +4,10 @@
 
 ## Command 1 (grep -l)
 
--This command line option of grep is used to search for a specific pattern in a set of files and diplays only the names of files that match the search patter.
--We can explain this we can use the following examples
--In example 1, we search for "Taj Mahal" and it displays all the files that conatin this string.
--Similarly in example 2, when we search for the string "Pisa", the command searches for all the files containing the string "Pisa" and prints all the files.
+- This command line option of grep is used to search for a specific pattern in a set of files and diplays only the names of files that match the search patter.
+- We can explain this we can use the following examples
+- In example 1, we search for "Taj Mahal" and it displays all the files that conatin this string.
+- Similarly in example 2, when we search for the string "Pisa", the command searches for all the files containing the string "Pisa" and prints all the files.
 
 Example 1
 ```
@@ -36,11 +36,11 @@ written_2/travel_guides/berlitz2/China-WhereToGo.txt
 ```
 ## Command 2 (grep -i)
 
--This command line option of grep is used to conduct a case-insensitive search. With `-i` the search pattern is not affected by the case of the letters.
--To understand this better wr can use the following examples.
--In example 1, we searched for the word "sweet". Even though in the search pattern we entered "sWeEtS" it still matches all the lines containing this word. It doesnt matter in what case we type the word.
--Similarly, in example 2 we search for the word "Eiffel Tower". We entered the search pattern as "eiFfeL toWeR" the command searches for all the files containing this string irrespective of the case.
--In both the examples we use the `-l` command such that it prints only the file name and not the whole string.
+- This command line option of grep is used to conduct a case-insensitive search. With `-i` the search pattern is not affected by the case of the letters.
+- To understand this better wr can use the following examples.
+- In example 1, we searched for the word "sweet". Even though in the search pattern we entered "sWeEtS" it still matches all the lines containing this word. It doesnt matter in what case we type the word.
+- Similarly, in example 2 we search for the word "Eiffel Tower". We entered the search pattern as "eiFfeL toWeR" the command searches for all the files containing this string irrespective of the case.
+- In both the examples we use the `-l` command such that it prints only the file name and not the whole string.
 
 Example 1 
 
@@ -69,11 +69,11 @@ written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
 ```
 
 ## Command 3 (grep -x)
--This command line option is used to match only complete lines that exactly match the specific pattern. This option allows you to search for a string that must appear as a whole line, rather than as a substring within a line.
--We can understand this with the following examples. 
--In example 1, we search for a specific line. here we search for the line "In 1947 Edinburgh hosted its first International Festival." and it displays the file "WhatToEdinburgh".
--Similarly in the second example we search for the line "It is no place for the .... myth attaches to India.". It prints the file "IntroIndia".
--In both the examples we use the `-l` command such that it prints only the file name and not the whole string.
+- This command line option is used to match only complete lines that exactly match the specific pattern. This option allows you to search for a string that must appear as a whole line, rather than as a substring within a line.
+- We can understand this with the following examples. 
+- In example 1, we search for a specific line. here we search for the line "In 1947 Edinburgh hosted its first International Festival." and it displays the file "WhatToEdinburgh".
+- Similarly in the second example we search for the line "It is no place for the .... myth attaches to India.". It prints the file "IntroIndia".
+- In both the examples we use the `-l` command such that it prints only the file name and not the whole string.
 
 Example 1
 
@@ -100,10 +100,10 @@ written_2/travel_guides/berlitz1/IntroIndia.txt
 
 ## Command 4 (grep -c)
 
--This command line option is used to count the number of lines in a file that match the specified pattern, rather than printing the actual matching lines.
--We can understand this using the following examples.
--In the first example, we search for the word "vacation". This command searches for the word "vacation" and counts the number of lines in each file that contain this word. It then returns the name of the files along with the number of lines that contain the specific word.
--Similarly, in example 2, the command counts the lines in files that contain the word "history".
+- This command line option is used to count the number of lines in a file that match the specified pattern, rather than printing the actual matching lines.
+- We can understand this using the following examples.
+- In the first example, we search for the word "vacation". This command searches for the word "vacation" and counts the number of lines in each file that contain this word. It then returns the name of the files along with the number of lines that contain the specific word.
+- Similarly, in example 2, the command counts the lines in files that contain the word "history".
 
 Example 1
 
