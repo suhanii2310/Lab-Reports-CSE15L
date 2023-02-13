@@ -34,6 +34,9 @@ written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt
 written_2/travel_guides/berlitz2/China-WhereToGo.txt
 
 ```
+(I found out about this through chatGPT)
+
+
 ## Command 2 (grep -i)
 
 - This command line option of grep is used to conduct a case-insensitive search. With `-i` the search pattern is not affected by the case of the letters.
@@ -67,6 +70,8 @@ written_2/travel_guides/berlitz2/California-WhereToGo.txt
 written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt
 written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
 ```
+(I found out about this through chatGPT)
+
 
 ## Command 3 (grep -x)
 - This command line option is used to match only complete lines that exactly match the specific pattern. This option allows you to search for a string that must appear as a whole line, rather than as a substring within a line.
@@ -96,6 +101,7 @@ written_2/travel_guides/berlitz1/IntroIndia.txt
 
 ```
 
+(I found out about this through chatGPT)
 
 
 ## Command 4 (grep -c)
@@ -169,3 +175,13 @@ written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt:7
 
 ```
 
+(I found out about this through chatGPT)
+
+# The Source
+
+I used chatGPT to find out about the above command line options.
+I searched for "grep command line options" and it returned a few of the options.
+
+
+![F0FE3675-27DE-4191-8DDA-3F4DD91662C7](https://user-images.githubusercontent.com/122580828/218439211-2cc29adb-3ee2-49e9-84de-684eafb5db01.jpeg)
+![F4F7B7B2-5184-4623-A3AC-7EC4F84E7CD4](https://user-images.githubusercontent.com/122580828/218439225-ffedc9f7-544f-448c-a9df-d62ef49934c9.jpeg)
