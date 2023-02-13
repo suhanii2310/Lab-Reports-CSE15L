@@ -5,7 +5,7 @@
 ## Command 1 (grep -l)
 
 - This command line option of grep is used to search for a specific pattern in a set of files and diplays only the names of files that match the search patter.
-- We can explain this we can use the following examples
+- We can explain this using the following examples
 - In example 1, we search for "Taj Mahal" and it displays all the files that conatin this string.
 - Similarly in example 2, when we search for the string "Pisa", the command searches for all the files containing the string "Pisa" and prints all the files.
 
@@ -40,7 +40,7 @@ written_2/travel_guides/berlitz2/China-WhereToGo.txt
 ## Command 2 (grep -i)
 
 - This command line option of grep is used to conduct a case-insensitive search. With `-i` the search pattern is not affected by the case of the letters.
-- To understand this better wr can use the following examples.
+- To understand this better we can use the following examples.
 - In example 1, we searched for the word "sweet". Even though in the search pattern we entered "sWeEtS" it still matches all the lines containing this word. It doesnt matter in what case we type the word.
 - Similarly, in example 2 we search for the word "Eiffel Tower". We entered the search pattern as "eiFfeL toWeR" the command searches for all the files containing this string irrespective of the case.
 - In both the examples we use the `-l` command such that it prints only the file name and not the whole string.
