@@ -3,6 +3,8 @@
 ## Step 1 - Setup Delete any existing forks of the repository you have on your account
 
 To delete any existing forks of the repository "lab7" you should go the the repository and click on the settings menu. Scrolling down on the page you will see a dangerZone where oyu can delete that particular repository.
+
+
 ![9519ABAD-6CA4-4558-A09E-72C5B2419DC0](https://user-images.githubusercontent.com/122580828/221464484-a04e9793-f4d1-4735-bcb8-cbcd42b36174.jpeg)
 
 ![28BF07AB-2ABB-409D-8098-A0FFBAF249BB](https://user-images.githubusercontent.com/122580828/221464488-16dd88d9-3ec5-490e-85fb-99e9e8640f4c.jpeg)
