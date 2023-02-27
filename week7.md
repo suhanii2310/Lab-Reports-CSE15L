@@ -16,38 +16,57 @@
 
 ## Step 4 Log into ieng6
 
-![B0E3BB8C-3EE3-45F1-9DB7-68985794EBD0](https://user-images.githubusercontent.com/122580828/221465068-8ab64973-e1db-46e4-83b7-a5628a966ef9.jpeg)
+![37336A86-296C-47B6-BD44-72D8EEC95605](https://user-images.githubusercontent.com/122580828/221469681-17588010-44d0-44b2-9b5c-fa9a58bb220a.jpeg)
+
+
 
 ## Step 5 Clone your fork of the repository from your Github account
-![BA016665-79F2-4A52-91B0-4117FEA6D17B](https://user-images.githubusercontent.com/122580828/221465103-06680d33-a7c7-45b2-8c71-89a72dfc57a8.jpeg)
-![FC45CCCB-269D-46C0-A5CA-5E7696C02332_4_5005_c](https://user-images.githubusercontent.com/122580828/221465110-5114d5cf-35a8-4ee6-8efa-e4ecd3c4293b.jpeg)
+
+![F8888C0E-18AC-4B19-B24B-507127DD8E12_4_5005_c](https://user-images.githubusercontent.com/122580828/221469743-35629bf4-2398-4147-a4b2-953e8c8d3c5b.jpeg)
+
+
+
 
 ## Step 6 Run the tests, demonstrating that they fail
 
-![12BE26AF-8F2E-4B39-A4A7-FDBC06A0AD9E_4_5005_c](https://user-images.githubusercontent.com/122580828/221465778-b9221a74-159d-4f68-b5a4-2f5c020528b7.jpeg)
-![AFADC33C-3965-4710-A792-53E3CDB65D57](https://user-images.githubusercontent.com/122580828/221465816-703bdf13-53e5-4f19-854b-22e1eff42d9b.jpeg)
+![0760EA8B-A4B7-4DD5-997D-929ED1799441](https://user-images.githubusercontent.com/122580828/221469792-b8c7412a-b016-4161-b5e3-427278cbabfb.jpeg)
+
+
+
 
 
 ## Step 7 Edit the code file to fix the failing test
-![4FAB6457-F399-422F-928F-064465256F49](https://user-images.githubusercontent.com/122580828/221465123-f2f25e65-0ace-499a-8079-2984caab6a27.jpeg)
-![59D8969C-18EA-4511-99CF-BD0E4ACBB12E](https://user-images.githubusercontent.com/122580828/221465847-08d82adc-c855-47b2-af31-ae8bf0ff80bf.jpeg)
-![B635F7AC-AF74-4804-AB84-3F8926F11FDE](https://user-images.githubusercontent.com/122580828/221465876-ad8b4f3f-9569-4718-86b2-07bfbc771a17.jpeg)
-![42EE9DC1-DFA3-45C9-8C7E-A0A4A35A8FE9](https://user-images.githubusercontent.com/122580828/221465882-26bd2890-11f9-4e5f-9282-75e8b2e10d07.jpeg)
-![24A17060-7383-4A8D-9AE9-E9D969F72FD9](https://user-images.githubusercontent.com/122580828/221465941-4e2e9643-103a-41c5-a1be-fd501623e3cf.jpeg)
+
+![6BA65141-5F9A-47D5-82B5-A0B2509222A8_4_5005_c](https://user-images.githubusercontent.com/122580828/221470231-94d2e913-bec6-4710-b789-ae099dc0822d.jpeg)
 
 
-![8BA07A61-9121-42D6-A752-5992C54B8E05](https://user-images.githubusercontent.com/122580828/221465959-084ee2b2-7ddf-43ef-bd50-746cdf0f815e.jpeg)
+![3BA47152-85B1-406D-B364-AC1576A3550F](https://user-images.githubusercontent.com/122580828/221470043-e1e0531d-3b10-4f67-84ed-6b9ca32dac7c.jpeg)
+
+
+![04BFE16E-AA01-46B0-857D-FF82ACF6B00B](https://user-images.githubusercontent.com/122580828/221470054-5cdf102e-ba3a-46cb-825e-de89a50ca34c.jpeg)
+
+![EB3A9C6D-31D2-491E-8A23-DA147D7937E3](https://user-images.githubusercontent.com/122580828/221470064-ca114f69-d0d4-42ac-81a2-0846455caf3e.jpeg)
+
+
+![7DF2E732-3F3B-4182-961B-CF92F30B0C8C](https://user-images.githubusercontent.com/122580828/221470077-964765d4-9734-4c46-9e54-57bbed45701b.jpeg)
+
+![BE4EC164-E31D-4E42-9D7E-DBEEDF7ABF55](https://user-images.githubusercontent.com/122580828/221470086-fbc6b8c4-e9b2-4990-bf42-747f1e0162a9.jpeg)
+
+
 
 ## Step 8 Run the tests, demonstrating that they now succeed
 
-![36AFF83E-7C10-46EB-84DC-7C0F97671A13](https://user-images.githubusercontent.com/122580828/221465994-f8af81a6-ebb6-40cf-8307-f6c6b3506b35.jpeg)
+![33AC321F-EB0C-4424-8B5F-7B7D036EA9EE](https://user-images.githubusercontent.com/122580828/221470093-e08af5bd-d8b3-4eb9-b702-dac88d454e4e.jpeg)
+
+
 
 
 ## Step 9 Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+![80A346C9-CF5E-4B80-9F37-7B15D7ABF2CF](https://user-images.githubusercontent.com/122580828/221470114-40dd920b-9eee-4a4b-957f-fc6d086ec6ac.jpeg)
 
 
-![7C611E81-633E-45F9-8911-FF021839BC01](https://user-images.githubusercontent.com/122580828/221466019-87c16e95-7120-4a33-ad40-1b05cb72259f.jpeg)
+
 
 
 
