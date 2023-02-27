@@ -33,7 +33,7 @@ Since I had already setup the github and login command line setup the terminal d
 
 
 
-## Step 5 Clone your fork of the repository from your Github account
+## Step 5 - Clone your fork of the repository from your Github account
 
 - To clone the repository from a github account we have to click on `<> Code` and then copy the ssh key url.
 
@@ -47,7 +47,7 @@ Since I had already setup the github and login command line setup the terminal d
 
 
 
-## Step 6 Run the tests, demonstrating that they fail
+## Step 6 - Run the tests, demonstrating that they fail
 
 - To run the tests, we first change the directory to lab7 which has the files "ListExamples.java" and ListExamplesTests.java".
 - We complile the file using `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`.
@@ -58,7 +58,7 @@ Since I had already setup the github and login command line setup the terminal d
 ![0760EA8B-A4B7-4DD5-997D-929ED1799441](https://user-images.githubusercontent.com/122580828/221469792-b8c7412a-b016-4161-b5e3-427278cbabfb.jpeg)
 
 
-## Step 7 Edit the code file to fix the failing test
+## Step 7 - Edit the code file to fix the failing test
   
  - To edit the code file we use the command ` nano `.
  - We use `nano ListExamples.java` to edit the method.
@@ -94,7 +94,7 @@ Keys pressed : <delete><2>
 
 
 
-## Step 8 Run the tests, demonstrating that they now succeed
+## Step 8 - Run the tests, demonstrating that they now succeed
 
 - To compile the code we use `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command which was 3 up in the search history, so I used up arrow to access it.
  Keys pressed: <up><up><up><enter>
@@ -105,7 +105,7 @@ Keys pressed : <delete><2>
 ![33AC321F-EB0C-4424-8B5F-7B7D036EA9EE](https://user-images.githubusercontent.com/122580828/221470093-e08af5bd-d8b3-4eb9-b702-dac88d454e4e.jpeg)
 
 
-## Step 9 Commit and push the resulting change to your Github account (you can pick any commit message!)
+## Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)
  
 - To commit and push the changes made, we use the following commands.
 - `git add .`
