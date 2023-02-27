@@ -7,7 +7,9 @@ To delete any existing forks of the repository "lab7" you should go the the repo
 
 ![9519ABAD-6CA4-4558-A09E-72C5B2419DC0](https://user-images.githubusercontent.com/122580828/221464484-a04e9793-f4d1-4735-bcb8-cbcd42b36174.jpeg)
 
+
 ![28BF07AB-2ABB-409D-8098-A0FFBAF249BB](https://user-images.githubusercontent.com/122580828/221464488-16dd88d9-3ec5-490e-85fb-99e9e8640f4c.jpeg)
+
 
 ![A5084790-6888-4CC8-B9D4-45AA1209CDB2](https://user-images.githubusercontent.com/122580828/221464493-ab543481-da83-4d34-a34e-93ab4deead26.jpeg)
 
