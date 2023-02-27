@@ -74,7 +74,7 @@ Keys pressed(<down> 42 times): <down><down><down><down><down><down><down><down><
 
 - Then we go 12 spaces right in the 43rd line.
  
- Keys pressed(<right> 12 times): <right><right><right><right><right><right><right><right><right><right><right><right>
+ Keys pressed(<right> 12 times): < right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >
 
 ![3BA47152-85B1-406D-B364-AC1576A3550F](https://user-images.githubusercontent.com/122580828/221470043-e1e0531d-3b10-4f67-84ed-6b9ca32dac7c.jpeg)
 
