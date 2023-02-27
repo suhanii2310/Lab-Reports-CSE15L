@@ -81,11 +81,11 @@ Keys pressed : <delete><2>
  
 ![EB3A9C6D-31D2-491E-8A23-DA147D7937E3](https://user-images.githubusercontent.com/122580828/221470064-ca114f69-d0d4-42ac-81a2-0846455caf3e.jpeg)
 
-- To save this change we press <control>+<o> and the press <enter>.
+- To save this change we press <control> and <o> and the press <enter>.
 
 ![7DF2E732-3F3B-4182-961B-CF92F30B0C8C](https://user-images.githubusercontent.com/122580828/221470077-964765d4-9734-4c46-9e54-57bbed45701b.jpeg)
 
-- To exit press <control>+<x>.
+- To exit press <control> and <x>.
  
 ![BE4EC164-E31D-4E42-9D7E-DBEEDF7ABF55](https://user-images.githubusercontent.com/122580828/221470086-fbc6b8c4-e9b2-4990-bf42-747f1e0162a9.jpeg)
 
