@@ -101,7 +101,7 @@ Keys pressed : < delete > < 2 >
  Keys pressed: < up >< up >< up >< enter >
 - To run the code we use `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command which was 3 up in the search histpry, so I used up arrow to access it.
  Keys pressed: < up >< up >< up >< enter >
-- we observe that the code passes all the tests now.
+- We observe that the code passes all the tests now.
 
 ![33AC321F-EB0C-4424-8B5F-7B7D036EA9EE](https://user-images.githubusercontent.com/122580828/221470093-e08af5bd-d8b3-4eb9-b702-dac88d454e4e.jpeg)
 
@@ -109,9 +109,9 @@ Keys pressed : < delete > < 2 >
 ## Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)
  
 - To commit and push the changes made, we use the following commands.
-- `git add .`
-- `git commit -m "commit message"`
-- `git push`
+- `git add .` (To add the changes made)
+- `git commit -m "commit message"` (To commit changes with the message "commit changes")
+- `git push` (Pushes the changes to the github page)
 
 ![80A346C9-CF5E-4B80-9F37-7B15D7ABF2CF](https://user-images.githubusercontent.com/122580828/221470114-40dd920b-9eee-4a4b-957f-fc6d086ec6ac.jpeg)
 
