@@ -22,7 +22,6 @@ Example 2
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % find . -name HistoryItaly.txt  
 ./written_2/travel_guides/berlitz1/HistoryItaly.txt
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch %
-
 ```
 (I found out about this through tecmint.com)
 
@@ -40,7 +39,6 @@ Example 1
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % find . -iname HiStoRyHawAiI.txt 
 ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % 
-
 ```
 
 Example 2
@@ -72,8 +70,6 @@ Example 2
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % find . -type f -name "Cuba-History.txt" -exec rm -f {} \;
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % find . -name Cuba-History.txt                            
 suhanisrivastava@Suhanis-MacBook-Air-2 docsearch % 
-
-
 ```
 
 (I found out about this through tecmint.com)
@@ -91,7 +87,6 @@ Example 1
 ```
 suhanisrivastava@Suhanis-MacBook-Air-2 written_2 % find . -mtime -2
 ./travel_guides/berlitz2
-
 ```
 
 Example 2
@@ -120,7 +115,6 @@ suhanisrivastava@Suhanis-MacBook-Air-2 written_2 % find . -mtime -40
 ./travel_guides/berlitz2/Paris-WhatToDo.txt
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
-
 ```
 
 (I found out about this through linuxhandbook)
