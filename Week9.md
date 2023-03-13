@@ -1,6 +1,6 @@
 # Week 9 Lab Report
 
-## Researching Commands
+## Researching Commands (find)
 
 ## Command 1 (find -name)
 
@@ -32,7 +32,7 @@ suhanisrivastava@Suhanis-MacBook-Air-2 docsearch %
 - This command line option of find is used to conduct a case-insensitive search. With `-iname` the search pattern is not affected by the case of the letters.
 - To understand this better we can use the following examples.
 - In example 1, we search for a file named `HiStoRyHawAiI.txt`. The output shows that the file was found in the directory `./written_2/travel_guid`. It doesnt matter in what case we type the filename.
-- Similarly, in example 2 we search for the file `Athens-Intro.txt`. We entered the search pattern as "AtHenS-INTro.txt" the command searches for all the files containing this string irrespective of the case. The fiel was found in the directory `./written_2/travel_guides/berlitz2/Athens-Intro.txt`.
+- Similarly, in example 2 we search for the file `Athens-Intro.txt`. We entered the search pattern as `"AtHenS-INTro.txt"` the command searches for all the files containing this string irrespective of the case. The fiel was found in the directory `./written_2/travel_guides/berlitz2/Athens-Intro.txt`.
 
 Example 1 
 
@@ -56,8 +56,8 @@ suhanisrivastava@Suhanis-MacBook-Air-2 docsearch %
 ## Command 3 (find -type f -name <filename> -exec rm -f {} \;)
 - The `-type` option is used to specify the type of file to search for. The `-name` option is used to specify the name of the file to search for. The `-exec` option is used to execute a command `-rm -f` to remove the file.
 - We can understand these with the following examples. 
-- In example 1, the command searches for the file "Cancun-WhereToGo.txt" and then uses -exec to execute the -rm -f command to delete the file. We check if the file was deleted or not by using -name command to search for this file. We observe that it doesn't return anything which means the file was deleted.
-- Similarly in the second example, the command searches for the file "Cuba-History.txt" and then uses -exec to execute the -rm -f command to delete the file. We check if the file was deleted or not by using -name command to search for this file. We see that it doesn't return anything which means the file was deleted.
+- In example 1, the command searches for the file `"Cancun-WhereToGo.txt"` and then uses -exec to execute the `-rm -f` command to delete the file. We check if the file was deleted or not by using `-name` command to search for this file. We observe that it doesn't return anything which means the file was deleted.
+- Similarly in the second example, the command searches for the file `"Cuba-History.txt"` and then uses -exec to execute the `-rm -f` command to delete the file. We check if the file was deleted or not by using `-name` command to search for this file. We see that it doesn't return anything which means the file was deleted.
 
 Example 1
 
