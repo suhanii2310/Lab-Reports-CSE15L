@@ -110,9 +110,9 @@ Keys pressed : ` < delete > < 2 > `
 ## Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)
  
 - To commit and push the changes made, we use the following commands.
-- `git add .` (To add the changes made) and ` < enter >
-- `git commit -m "commit message"` and < enter > (To commit changes with the message "commit changes")
-- `git push` and < enter > (Pushes the changes to the github page)
+- `git add .` (To add the changes made) and `< enter >`
+- `git commit -m "commit message"` and `< enter >` (To commit changes with the message "commit changes")
+- `git push` and `< enter >` (Pushes the changes to the github page)
 
 ![80A346C9-CF5E-4B80-9F37-7B15D7ABF2CF](https://user-images.githubusercontent.com/122580828/221470114-40dd920b-9eee-4a4b-957f-fc6d086ec6ac.jpeg)
 
