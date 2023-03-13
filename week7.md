@@ -27,7 +27,7 @@ Start the timer now to time yourself doing the rest of the steps.
 
 ## Step 4 - Log into ieng6
 
-Since I had already setup the github and login command line setup the terminal doesn't ask for my password when I login with `ssh cs15lwi23awl@ieng6@ucsd.edu` and press ` < enter >` .
+Since I had already setup the github and login command line setup the terminal doesn't ask for my password when I login with `ssh cs15lwi23awl@ieng6@ucsd.edu` and press `< enter >` .
 
 ![37336A86-296C-47B6-BD44-72D8EEC95605](https://user-images.githubusercontent.com/122580828/221469681-17588010-44d0-44b2-9b5c-fa9a58bb220a.jpeg)
 
@@ -61,7 +61,7 @@ Since I had already setup the github and login command line setup the terminal d
 
 ## Step 7 - Edit the code file to fix the failing test
   
- - To edit the code file we use the command ` nano `.
+ - To edit the code file we use the command `nano`.
  - We use `nano ListExamples.java` to edit the method.
 
 ![6BA65141-5F9A-47D5-82B5-A0B2509222A8_4_5005_c](https://user-images.githubusercontent.com/122580828/221470231-94d2e913-bec6-4710-b789-ae099dc0822d.jpeg)
@@ -69,24 +69,24 @@ Since I had already setup the github and login command line setup the terminal d
 - The code file opens and now we can edit the code so that we pass all the tests.
 - We go down to the 43rd line of the file.
  
-Keys pressed(< down > 42 times): ` < down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down > `
+Keys pressed(< down > 42 times): `< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >< down >`
  
  
 ![04BFE16E-AA01-46B0-857D-FF82ACF6B00B](https://user-images.githubusercontent.com/122580828/221470054-5cdf102e-ba3a-46cb-825e-de89a50ca34c.jpeg)
 
 - Then we go 12 spaces right in the 43rd line.
  
- Keys pressed(< right > 12 times): ` < right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right > `
+ Keys pressed(< right > 12 times): `< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >< right >`
 
 ![3BA47152-85B1-406D-B364-AC1576A3550F](https://user-images.githubusercontent.com/122580828/221470043-e1e0531d-3b10-4f67-84ed-6b9ca32dac7c.jpeg)
 
 - We change the "index1" to "index2". We make this change because the code was not updating the index value of the second list.
  
-Keys pressed : ` < delete > < 2 > `
+Keys pressed : `< delete > < 2 >`
  
 ![EB3A9C6D-31D2-491E-8A23-DA147D7937E3](https://user-images.githubusercontent.com/122580828/221470064-ca114f69-d0d4-42ac-81a2-0846455caf3e.jpeg)
 
-- To save this change we press ` < ^O > ` and the press ` < enter > `.
+- To save this change we press `< ^O >` and the press `< enter >`.
 
 ![7DF2E732-3F3B-4182-961B-CF92F30B0C8C](https://user-images.githubusercontent.com/122580828/221470077-964765d4-9734-4c46-9e54-57bbed45701b.jpeg)
 
@@ -99,9 +99,9 @@ Keys pressed : ` < delete > < 2 > `
 ## Step 8 - Run the tests, demonstrating that they now succeed
 
 - To compile the code we use `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command which was 3 up in the search history, so I used up arrow to access it.
- Keys pressed: ` < up >< up >< up >< enter > `
+ Keys pressed: `< up >< up >< up >< enter >`
 - To run the code we use `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command which was 3 up in the search histpry, so I used up arrow to access it.
- Keys pressed: ` < up >< up >< up >< enter > `
+ Keys pressed: `< up >< up >< up >< enter >`
 - We observe that the code passes all the tests now.
 
 ![33AC321F-EB0C-4424-8B5F-7B7D036EA9EE](https://user-images.githubusercontent.com/122580828/221470093-e08af5bd-d8b3-4eb9-b702-dac88d454e4e.jpeg)
