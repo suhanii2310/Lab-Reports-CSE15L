@@ -27,7 +27,7 @@ Start the timer now to time yourself doing the rest of the steps.
 
 ## Step 4 - Log into ieng6
 
-Since I had already setup the github and login command line setup the terminal doesn't ask for my password when I login with `ssh cs15lwi23awl@ieng6@ucsd.edu` and press < enter > .
+Since I had already setup the github and login command line setup the terminal doesn't ask for my password when I login with `ssh cs15lwi23awl@ieng6@ucsd.edu` and press ` < enter >` .
 
 ![37336A86-296C-47B6-BD44-72D8EEC95605](https://user-images.githubusercontent.com/122580828/221469681-17588010-44d0-44b2-9b5c-fa9a58bb220a.jpeg)
 
@@ -40,7 +40,7 @@ Since I had already setup the github and login command line setup the terminal d
 ![BA016665-79F2-4A52-91B0-4117FEA6D17B](https://user-images.githubusercontent.com/122580828/221471816-23361b35-3007-475c-82f2-0d7814728409.jpeg)
 
 
-- In the terminal run the command `git clone <copied ssh url>` and then press < enter > . This should clone the repository from your github account.
+- In the terminal run the command `git clone <copied ssh url>` and then press `< enter >` . This should clone the repository from your github account.
 
 ![F8888C0E-18AC-4B19-B24B-507127DD8E12_4_5005_c](https://user-images.githubusercontent.com/122580828/221469743-35629bf4-2398-4147-a4b2-953e8c8d3c5b.jpeg)
 
