@@ -86,11 +86,11 @@ Keys pressed : ` < delete > < 2 > `
  
 ![EB3A9C6D-31D2-491E-8A23-DA147D7937E3](https://user-images.githubusercontent.com/122580828/221470064-ca114f69-d0d4-42ac-81a2-0846455caf3e.jpeg)
 
-- To save this change we press ` < control > ` and ` < o > ` and the press ` < enter > `.
+- To save this change we press ` < ^O > ` and the press ` < enter > `.
 
 ![7DF2E732-3F3B-4182-961B-CF92F30B0C8C](https://user-images.githubusercontent.com/122580828/221470077-964765d4-9734-4c46-9e54-57bbed45701b.jpeg)
 
-- To exit press `< control >` and  `< x >` .
+- To exit press `< ^X >` .
  
 ![BE4EC164-E31D-4E42-9D7E-DBEEDF7ABF55](https://user-images.githubusercontent.com/122580828/221470086-fbc6b8c4-e9b2-4990-bf42-747f1e0162a9.jpeg)
 
@@ -113,6 +113,7 @@ Keys pressed : ` < delete > < 2 > `
 - `git add .` (To add the changes made) and `< enter >`
 - `git commit -m "commit message"` and `< enter >` (To commit changes with the message "commit changes")
 - `git push` and `< enter >` (Pushes the changes to the github page)
+ 
 
 ![80A346C9-CF5E-4B80-9F37-7B15D7ABF2CF](https://user-images.githubusercontent.com/122580828/221470114-40dd920b-9eee-4a4b-957f-fc6d086ec6ac.jpeg)
 
